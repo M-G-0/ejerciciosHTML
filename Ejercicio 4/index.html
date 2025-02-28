@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, tr, td{
+            width: 250px;
+            border-collapse: collapse;
+            border: solid 1px black;
+            text-align: center;
+        }
+        .tablas {
+            display: flex;
+            padding: 20px;
+            gap: 40px;
+            
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="tablas">
+    <table>
+
+        <thead>
+            <td colspan="3">Ejercicios de tablas </td>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td colspan="3"> Apartado A </td>
+        </tr>
+         </thead>
+    </table>
+    <table>
+
+        <thead>
+            <td colspan="3">Ejercicios de tablas </td>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td colspan="2">2</td>
+        </tr>
+        <tr>
+            <td rowspan="3" >4</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td colspan="3"> Apartado B </td>
+        </tr>
+         </thead>
+    </table>
+</div>
+
+</body>
+</html>
